@@ -8,8 +8,8 @@
         </div>
         <div class="navbar-collapse" [class.collapse]="collapsed" (window:resize)="collapsed = true">
             <ul class="navbar-nav nav">
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Recipes</a></li>
+                <li><a href="#" (click)="onSelect('recipe')">Recipes</a></li>
+                <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
             </ul>
             <ul class="navbar-nav nav navbar-right">
                 <li class="dropdown">
